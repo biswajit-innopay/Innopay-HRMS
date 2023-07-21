@@ -195,7 +195,7 @@ const appointments = [
   },
   {
     id: 3,
-    title: 'Oil Painting',
+    title: 'Present',
     startDate: new Date(2018, 6, 18, 14, 30),
     endDate: new Date(2018, 6, 18, 15, 30),
     ownerId: 2,
@@ -289,9 +289,9 @@ const CellBase = React.memo(
           [classes.opacity]: otherMonth,
         })}
       >
-        <StyledDivContent className={classes.content}>
+        {/* <StyledDivContent className={classes.content}>
           <WeatherIcon classes={classes} id={iconId} />
-        </StyledDivContent>
+        </StyledDivContent> */}
         <StyledDivText className={classes.text}>
           {formatDate(startDate, formatOptions)}
         </StyledDivText>

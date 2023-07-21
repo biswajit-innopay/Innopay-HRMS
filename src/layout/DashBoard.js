@@ -1,6 +1,5 @@
 import React from 'react'
 import { AppContent, AppSidebar, AppHeader } from '../components/index'
-import Dashboard from 'src/views/dashboard/Dashboard'
 import Calender from 'src/components/attendance/Calender'
 const DefaultLayout = () => {
   return (

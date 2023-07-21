@@ -1,0 +1,5 @@
+{
+    "errorLens.disableLineComments": {
+        "eslint.enable": "false"
+    }
+}

@@ -12,6 +12,7 @@ const loading = (
 // Containers
 const DefaultLayout = React.lazy(() => import('./layout/DefaultLayout'))
 const DashBoardLayout = React.lazy(() => import('./layout/DashBoard'))
+const LeaveLayout = React.lazy(() => import('./layout/Leave'))
 
 // Pages
 const Page404 = React.lazy(() => import('./views/pages/page404/Page404'))
@@ -27,6 +28,7 @@ class App extends Component {
             <Route exact path="/500" name="Page 500" element={<Page500 />} />
             <Route path="/" name="Home" element={<DefaultLayout />} />
             <Route path="/dashBoard" element={<DashBoardLayout />} />
+            <Route path="/leave" element={<LeaveLayout />} />
           </Routes>
         </Suspense>
       </HashRouter>

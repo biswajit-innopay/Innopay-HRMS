@@ -26,6 +26,20 @@ const _nav = [
       text: 'NEW',
     },
   },
+  {
+    component: CNavTitle,
+    name: 'Leave',
+  },
+  {
+    component: CNavItem,
+    name: 'My Leaves',
+    to: '/leave',
+    icon: <CIcon icon={cilPuzzle} customClassName="nav-icon" />,
+    badge: {
+      color: 'warning',
+      text: 'EL-29',
+    },
+  },
 ]
 
 export default _nav

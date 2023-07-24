@@ -45,6 +45,38 @@ export default function TabPannel() {
     setValue(newValue)
   }
 
+  const appliedLeavesCoulmns = [
+    {
+      headerName: 'Leave Type',
+      field: 'leave_type',
+      sortable: false,
+    },
+    {
+      headerName: 'From Date',
+      field: 'From',
+      sortable: true,
+    },
+    {
+      headerName: 'To Date',
+      field: 'to',
+      sortable: true,
+    },
+    {
+      headerName: 'Leave Count',
+      field: 'no_of_Leaves',
+      sortable: true,
+    },
+    {
+      headerName: 'Status',
+      field: 'status',
+      sortable: false,
+    },
+    {
+      headerName: 'Approved By',
+      field: 'approved_by',
+      sortable: false,
+    },
+  ]
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
@@ -55,7 +87,7 @@ export default function TabPannel() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Grid />
+        <Grid gridcolumns={appliedLeavesCoulmns} />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
         Item Two

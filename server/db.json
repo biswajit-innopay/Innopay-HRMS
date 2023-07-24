@@ -1,0 +1,11 @@
+{
+    "data":[
+        { "name": "James", "age": 25 },
+        { "name": "James" ,"age": 21 },
+        { "name": "James", "age": 38 },
+        { "name": "James", "age": 30 }
+      ],
+    "applied_leaves":[
+        {"leave_type":"EL","from":"9-JUN-2023","to":"9-JUN-2023","no_of_Leaves":1,"status":"APPROVED","approved_by":"A Mishra"}
+    ]  
+}

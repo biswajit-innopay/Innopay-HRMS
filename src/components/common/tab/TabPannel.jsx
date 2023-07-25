@@ -4,6 +4,7 @@ import Tab from '@mui/material/Tab'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import Grid from '../aggrid/Grid'
+import Button from '@mui/material/Button'
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -44,7 +45,7 @@ export default function TabPannel() {
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue)
   }
-
+  const actionButton = () => {}
   const appliedLeavesCoulmns = [
     {
       headerName: 'Leave Type',
@@ -72,9 +73,18 @@ export default function TabPannel() {
       sortable: false,
     },
     {
-      headerName: 'Approved By',
-      field: 'approved_by',
-      sortable: false,
+      headerName: 'Action',
+      field: 'age',
+      cellRenderer: (params) => (
+        <div>
+          <Button onClick={() => actionButton()} color="secondary">
+            Cancel
+          </Button>
+          <Button onClick={() => actionButton()} color="secondary">
+            View
+          </Button>
+        </div>
+      ),
     },
   ]
   return (

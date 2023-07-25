@@ -21,7 +21,6 @@ const Leave = () => {
             {keys.forEach((key, index) => {
               console.log(`${key}: ${leaveCount[key]['count']} ${leaveCount[key]['color']}`)
             })}
-
             <Chip label="Earned Leave -5" color="warning" />
             <Chip label="Sick Leave - 2" color="error" />
             <Chip label="Casual Leave- 3" color="success" />

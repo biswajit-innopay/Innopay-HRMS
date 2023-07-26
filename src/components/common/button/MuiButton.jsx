@@ -1,33 +1,31 @@
 import React from 'react'
 import Button from '@mui/material/Button'
-import GridOnIcon from '@mui/icons-material/GridOn'
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
+import { PropTypes } from 'prop-types'
 
 const MuiButton = (props) => {
-  console.log(props)
-  //  const { onExportClick, variant, startIcon, endIcon } = props
-  const onExportClick = () => {}
+  const { onExportClick, variant, startIcon, endIcon, text, color } = props
   return (
     <>
       <Button
         sx={{ m: 2 }}
-        onClick={() => onExportClick()}
-        variant="contained"
-        startIcon={<GridOnIcon />}
+        onClick={onExportClick}
+        variant={variant}
+        startIcon={startIcon}
+        endIcon={endIcon}
+        color={color}
       >
-        Export
-      </Button>
-      <Button
-        sx={{ m: 2 }}
-        onClick={() => onExportClick()}
-        variant="contained"
-        endIcon={<ArrowForwardIcon />}
-        color="secondary"
-      >
-        Apply Leave
+        {text}
       </Button>
     </>
   )
+}
+MuiButton.propTypes = {
+  onExportClick: PropTypes.func,
+  variant: PropTypes.string,
+  startIcon: PropTypes.object,
+  endIcon: PropTypes.object,
+  text: PropTypes.string,
+  color: PropTypes.string,
 }
 
 export default MuiButton

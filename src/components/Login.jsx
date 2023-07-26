@@ -69,14 +69,11 @@ const Login = () => {
             [e.target.name]: 'It should be a valid email address!',
           })
     }
-    // console.log(formErr["email"], formErr["email"].length);
     formErr['email'].length ? setLoginDisabled(true) : setLoginDisabled(false)
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Perform login logic here
-    // console.log(formData);
     navigate('dashboard')
   }
 

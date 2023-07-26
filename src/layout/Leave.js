@@ -3,12 +3,11 @@ import { AppContent, AppSidebar, AppHeader } from '../components/index'
 import Chip from '@mui/material/Chip'
 import Stack from '@mui/material/Stack'
 import TabPannel from 'src/components/common/tab/TabPannel'
-const leaveCount = {
-  EL: { count: 5, color: 'warning' },
-  'Sick Leave': { count: 2, color: 'primary' },
-  Casual: { count: 5, color: 'success' },
-}
-const keys = Object.keys(leaveCount)
+const leaveCount = [
+  { leaveType: 'Earned Leave', count: 5, color: 'warning' },
+  { leaveType: 'Sick Leave', count: 2, color: 'primary' },
+  { leaveType: 'Casual', count: 3, color: 'success' },
+]
 const Leave = () => {
   return (
     <div>
@@ -18,12 +17,15 @@ const Leave = () => {
         <div className="body flex-grow-1 px-3">
           <AppContent />
           <Stack direction="row" spacing={1}>
-            {keys.forEach((key, index) => {
-              console.log(`${key}: ${leaveCount[key]['count']} ${leaveCount[key]['color']}`)
+            {leaveCount.map((item, index) => {
+              return (
+                <Chip
+                  key={index}
+                  label={item?.leaveType + ' - ' + item?.count}
+                  color={item?.color}
+                />
+              )
             })}
-            <Chip label="Earned Leave -5" color="warning" />
-            <Chip label="Sick Leave - 2" color="error" />
-            <Chip label="Casual Leave- 3" color="success" />
           </Stack>
           <TabPannel />
         </div>

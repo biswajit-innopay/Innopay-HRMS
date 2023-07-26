@@ -6,6 +6,7 @@ import Box from '@mui/material/Box'
 import MultipleSelectCheckmarks from '../dropdown/MultipleSelectCheckmarks'
 import MuiButton from '../button/MuiButton'
 import GridOnIcon from '@mui/icons-material/GridOn'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
 const Grid = (gridcolumns) => {
   const [tableData, setTableData] = useState(null)
@@ -42,21 +43,21 @@ const Grid = (gridcolumns) => {
           borderRadius: 1,
         }}
       >
-        <MuiButton
+        {/* <MuiButton
           onExportClick={onExportClick}
           variant="contained"
           startIcon={<GridOnIcon />}
           endIcon=""
-        />
-        {/* <Button
-          sx={{ m: 2 }}
-          onClick={() => onExportClick()}
+          text="Export"
+        /> */}
+        <MuiButton
+          onExportClick={onExportClick}
           variant="contained"
+          startIcon=""
           endIcon={<ArrowForwardIcon />}
+          text="Apply Leave"
           color="secondary"
-        >
-          Apply Leave
-        </Button> */}
+        />
         <MultipleSelectCheckmarks />
       </Box>
 

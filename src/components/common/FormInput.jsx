@@ -4,7 +4,6 @@ import { PropTypes } from 'prop-types'
 
 const FormInput = (props) => {
   const { label, type, variant = 'outlined', margin, onChange, name, formErr } = props
-  console.log({ formErr })
   return (
     <>
       <TextField

@@ -300,7 +300,7 @@ const CellBase = React.memo(
   },
 )
 CellBase.propTypes = {
-  startDate: PropTypes.string,
+  startDate: PropTypes.date,
   formatDate: PropTypes.string,
   otherMonth: PropTypes.string,
 }

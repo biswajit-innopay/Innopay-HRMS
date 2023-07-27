@@ -7,5 +7,31 @@
       ],
     "applied_leaves":[
         {"leave_type":"EL","from":"9-JUN-2023","to":"9-JUN-2023","no_of_Leaves":1,"status":"APPROVED","approved_by":"A Mishra"}
-    ]  
+    ],
+    "nav":[
+        {
+            "component": "CNavItem",
+            "name": "Dashboard",
+            "to": "/dashboard",
+            "icon": "",
+            "badge": {
+              "color": "info",
+              "text": "NEW"
+            }
+          },
+          {
+            "component": "CNavTitle",
+            "name": "Leave"
+          },
+          {
+            "component": "CNavItem",
+            "name": "My Leaves",
+            "to": "/leave",
+            "icon": "",
+            "badge": {
+              "color": "warning",
+              "text": "EL-29"
+            }
+          }
+    ]
 }

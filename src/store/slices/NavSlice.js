@@ -3,8 +3,10 @@ const navSlice = createSlice({
   name: 'navdata',
   initialState: [],
   reducers: {
-    getNavData(state, action) {},
+    addNavData(state, action) {
+      state.push(action.payload)
+    },
   },
 })
-console.log('hi')
 export default navSlice.reducer
+export const { addNavData } = navSlice.actions

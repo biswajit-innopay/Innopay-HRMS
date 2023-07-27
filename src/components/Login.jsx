@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
 import { Box, Paper, Typography, Container } from '@mui/material'
 // import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import backgroundImage from '../../src/assets/images/bg.jpg'
 import FormInput from './common/FormInput'
 import FormButton from './common/FormButton'
+
+import navigation from '../_nav'
+import { addNavData } from 'src/store/slices/NavSlice'
 
 const initialValue = {
   email: '',
@@ -16,6 +20,7 @@ const initialFormErrorMsg = {
 }
 
 const Login = () => {
+  const dispatch = useDispatch()
   const navigate = useNavigate()
   const [formData, setFormData] = useState(initialValue)
   const [formErr, setFormErr] = useState(initialFormErrorMsg)
@@ -73,6 +78,8 @@ const Login = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
   const handleSubmit = (e) => {
+    dispatch(addNavData(navigation))
+    sessionStorage.setItem('navigate', JSON.stringify(navigation))
     e.preventDefault()
     navigate('dashboard')
   }

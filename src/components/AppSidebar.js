@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 import { CSidebar, CSidebarBrand, CSidebarNav, CSidebarToggler } from '@coreui/react'
@@ -12,39 +12,17 @@ import 'simplebar/dist/simplebar.min.css'
 
 // sidebar nav config
 import navigation from '../_nav'
-import { getNavbarData } from '../api/api'
-import axios from 'axios'
-import { addNavData } from 'src/store/slices/NavSlice'
 
 const AppSidebar = () => {
   const dispatch = useDispatch()
   const unfoldable = useSelector((state) => state.sidebarUnfoldable)
   const sidebarShow = useSelector((state) => state.sidebarShow)
 
-  const [navData, setNavData] = useState([])
-  const [isLoading, setLoading] = useState(false)
-
-  useEffect(() => {
-    dispatch(addNavData(navigation))
-    // setNavData(getNavbarData(setLoading, setNavData))
-    // axios({
-    //   method: 'get',
-    //   headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    //   url: 'http://localhost:5002/nav',
-    // })
-    //   .then(function (response) {
-    //     console.log(response.data)
-    //     setNavData(navigation)
-    //     setLoading(false)
-    //   })
-    //   .catch(function (error) {
-    //     console.log(error)
-    //   })
-  }, [])
-
-  if (isLoading) {
-    return <div className="App">Loading...</div>
-  }
+  const navData = useSelector((state) => {
+    return state.navdata
+  })
+  const navigationData = sessionStorage.getItem('navigation')
+  console.log(navData)
   return (
     <CSidebar
       position="fixed"

@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 import { CSidebar, CSidebarBrand, CSidebarNav, CSidebarToggler } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 
 import { AppSidebarNav } from './AppSidebarNav'
-import { sygnet } from 'src/assets/brand/sygnet'
 
 import SimpleBar from 'simplebar-react'
 import 'simplebar/dist/simplebar.min.css'
@@ -18,11 +17,11 @@ const AppSidebar = () => {
   const unfoldable = useSelector((state) => state.sidebarUnfoldable)
   const sidebarShow = useSelector((state) => state.sidebarShow)
 
-  const navData = useSelector((state) => {
-    return state.navdata
-  })
-  const navigationData = sessionStorage.getItem('navigation')
-  console.log(navData)
+  // const navData = useSelector((state) => {
+  //   return state.navdata
+  // })
+  // const navigationData = sessionStorage.getItem('navigation')
+  // console.log(navData)
   return (
     <CSidebar
       position="fixed"

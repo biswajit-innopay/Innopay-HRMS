@@ -17,6 +17,9 @@ const AppSidebar = () => {
   const unfoldable = useSelector((state) => state.sidebarUnfoldable)
   const sidebarShow = useSelector((state) => state.sidebarShow)
 
+  const usernav = JSON.parse(sessionStorage.getItem('navigate'))
+  console.log(usernav, 'usernav---')
+
   // const navData = useSelector((state) => {
   //   return state.navdata
   // })

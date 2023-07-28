@@ -87,20 +87,43 @@ export default function TabPannel() {
       ),
     },
   ]
+
+  const creditHistoryCoulmns = [
+    {
+      headerName: 'Year',
+      field: 'year',
+      sortable: false,
+    },
+    {
+      headerName: 'Monrh',
+      field: 'month',
+      sortable: false,
+    },
+    {
+      headerName: 'Leave Type',
+      field: 'leave_type',
+      sortable: false,
+    },
+    {
+      headerName: 'Credited Leave',
+      field: 'credited_leave',
+      sortable: false,
+    },
+  ]
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Applied Leaves" {...a11yProps(0)} />
           <Tab label="Leave Credit History" {...a11yProps(1)} />
-          <Tab label="Item Three" {...a11yProps(2)} />
+          <Tab label="Holiday List" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Grid gridcolumns={appliedLeavesCoulmns} />
+        <Grid gridcolumns={appliedLeavesCoulmns} type="applied_leave" />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Item Two
+        <Grid gridcolumns={creditHistoryCoulmns} type="credited_leave" />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three

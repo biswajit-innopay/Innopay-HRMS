@@ -9,6 +9,11 @@ import FormButton from './common/FormButton'
 
 import navigation from '../_nav'
 import { addNavData } from 'src/store/slices/NavSlice'
+import axios from 'axios'
+import CIcon from '@coreui/icons-react'
+import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
+
+import { cilPuzzle, cilSpeedometer } from '@coreui/icons'
 
 const initialValue = {
   email: '',
@@ -77,9 +82,43 @@ const Login = () => {
     formErr['email'].length ? setLoginDisabled(true) : setLoginDisabled(false)
     setFormData({ ...formData, [e.target.name]: e.target.value })
   }
+  const userNav = []
+
   const handleSubmit = (e) => {
-    dispatch(addNavData(navigation))
-    sessionStorage.setItem('navigate', JSON.stringify(navigation))
+    // axios call
+    axios({
+      method: 'get',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      url: 'http://localhost:5002/nav',
+    })
+      .then(function (response) {
+        console.log(response.data)
+
+        response.data.map((item, index) => {
+          console.log(item)
+          const component = item?.component
+          const icon = item?.icon
+          console.log(component, 'testttt')
+
+          if (component) {
+            item.component = { component }
+          }
+          if (icon) {
+            item.icon = <CIcon icon={icon} customClassName="nav-icon" />
+          }
+
+          userNav.push(item)
+          console.log(userNav, 'userNavFinal')
+
+          // <CIcon icon={cilSpeedometer} customClassName="nav-icon" />
+        })
+        dispatch(addNavData(userNav))
+        sessionStorage.setItem('navigate', JSON.stringify(userNav))
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
+
     e.preventDefault()
     navigate('dashboard')
   }

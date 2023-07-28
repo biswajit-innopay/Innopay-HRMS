@@ -8,8 +8,13 @@ import MuiButton from '../button/MuiButton'
 import GridOnIcon from '@mui/icons-material/GridOn'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 
-const Grid = (gridcolumns) => {
+const Grid = (gridcolumns, type) => {
   const [tableData, setTableData] = useState(null)
+  console.log(gridcolumns, type)
+  // const url =
+  //   type == 'applied_leave'
+  //     ? `http://localhost:5002/applied_leaves`
+  //     : `http://localhost:5002/credited_leaves`
   const url = `http://localhost:5002/applied_leaves`
   const columns = gridcolumns.gridcolumns
   const defaultcolDef = {

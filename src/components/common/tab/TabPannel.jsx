@@ -120,10 +120,10 @@ export default function TabPannel() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        <Grid gridcolumns={appliedLeavesCoulmns} type="applied_leave" />
+        <Grid gridcolumns={appliedLeavesCoulmns} url="applied_leaves" />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        <Grid gridcolumns={creditHistoryCoulmns} type="credited_leave" />
+        <Grid gridcolumns={creditHistoryCoulmns} url="applied_leaves" />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
         Item Three

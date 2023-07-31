@@ -1,37 +1,2199 @@
 {
-    "data":[
-        { "name": "James", "age": 25 },
-        { "name": "James" ,"age": 21 },
-        { "name": "James", "age": 38 },
-        { "name": "James", "age": 30 }
-      ],
-    "applied_leaves":[
-        {"leave_type":"EL","from":"9-JUN-2023","to":"9-JUN-2023","no_of_Leaves":1,"status":"APPROVED","approved_by":"A Mishra"}
-    ],
-    "nav":[
-      {
-        "component": "CNavItem",
-        "name": "Dashboard",
-        "to": "/dashboard",
-        "icon": "cilSpeedometer",
-        "badge": {
-          "color": "info",
-          "text": "NEW"
-        }
-      },
-      {
-        "component": "CNavTitle",
-        "name": "Leave"
-      },
-      {
-        "component": "CNavItem",
-        "name": "My Leaves",
-        "to": "/leave",
-        "icon": "cilPuzzle",
-        "badge": {
-          "color": "warning",
-          "text": "EL-29"
-        }
+  "data": [
+    {
+      "name": "James",
+      "age": 25
+    },
+    {
+      "name": "James",
+      "age": 21
+    },
+    {
+      "name": "James",
+      "age": 38
+    },
+    {
+      "name": "James",
+      "age": 30
+    }
+  ],
+  "applied_leaves":
+  [
+   {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-JUL-2023",
+      "to": "25-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "29-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "CL",
+      "from": "4-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "19-MAY-2023",
+      "to": "22-MAY-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "6-JUL-2023",
+      "to": "9-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "6-JUN-2023",
+      "to": "6-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "12-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "22-JUN-2023",
+      "to": "22-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "26-MAY-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "25-APR-2023",
+      "to": "29-APR-2023",
+      "no_of_Leaves": 4,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "18-MAY-2023",
+      "to": "18-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Ozair"
+    },
+    {
+      "leave_type": "EL",
+      "from": "2-JUL-2023",
+      "to": "5-JUL-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "3-MAY-2023",
+      "to": "9-MAY-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "1-APR-2023",
+      "to": "1-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "9-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "19-APR-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 10,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "28-MAY-2023",
+      "to": "28-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "12-APR-2023",
+      "to": "12-APR-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "21-JUL-2023",
+      "to": "26-JUL-2023",
+      "no_of_Leaves": 5,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "14-JUL-2023",
+      "to": "14-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "SL",
+      "from": "23-MAY-2023",
+      "to": "23-MAY-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "CL",
+      "from": "10-JUL-2023",
+      "to": "11-JUL-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "13-MAY-2023",
+      "to": "15-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "EL",
+      "from": "27-JUN-2023",
+      "to": "29-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "SL",
+      "from": "22-JUN-2023",
+      "to": "24-JUN-2023",
+      "no_of_Leaves": 3,
+      "status": "APPROVED",
+      "approved_by": "Sambit"
+    },
+    {
+      "leave_type": "EL",
+      "from": "11-MAY-2023",
+      "to": "12-MAY-2023",
+      "no_of_Leaves": 2,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    },
+    {
+      "leave_type": "CL",
+      "from": "5-JUN-2023",
+      "to": "5-JUN-2023",
+      "no_of_Leaves": 1,
+      "status": "APPROVED",
+      "approved_by": "Pooja"
+    }
+  ],
+  "nav": [
+    {
+      "component": "CNavItem",
+      "name": "Dashboard",
+      "to": "/dashboard",
+      "icon": "cilSpeedometer",
+      "badge": {
+        "color": "info",
+        "text": "NEW"
       }
-    ]
+    },
+    {
+      "component": "CNavTitle",
+      "name": "Leave"
+    }
+  ]
 }
